@@ -112,6 +112,15 @@ const INITIAL_CERTIFICATES: Certificate[] = [
     issueDate: '2026-07-23',
     fileUrl: '/images/garudahacks.png',
     fileType: 'image'
+  },
+
+  {
+    id: 'cert-4',
+    title: 'Pelatihan Azure AI Fundamental',
+    issuer: 'Microsoft, GreatNusa',
+    issueDate: '2026-03-04',
+    fileUrl: '/images/azure.png',
+    fileType: 'image'
   }
 ];
 
