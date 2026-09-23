@@ -25,7 +25,6 @@ interface Certificate {
   title: string;
   issuer: string;
   issueDate: string;
-  credentialId?: string;
   fileUrl: string;
   fileType: 'pdf' | 'image';
 }
@@ -75,17 +74,15 @@ const INITIAL_PROJECTS: Project[] = [
     description: 'Aplikasi untuk mendeteksi kesegaran buah.',
     category: 'Mobile',
     technologies: ['Python', 'OpenCV', 'Scikit-Learn'],
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
-    demoUrl: 'https://example.com',
-    projectDate: '2024',
-    problem: 'Kurangnya kesadaran finansial karena pencatatan transaksi manual yang rumit dan tidak konsisten.',
-    objective: 'Menyediakan aplikasi keuangan yang cepat, terintegrasi OCR resi belanjaan, serta visualisasi grafik anggaran.',
+    imageUrl: 'dist/images/projectcompvis.png',
+    githubUrl: 'https://github.com/MichLoverz/group4-final_project-computer_vision-fresh_fruitness_detection',
+    demoUrl: 'https://www.kaggle.com/code/michloverz/fruit-freshness-demo-comvis-group-4',
+    projectDate: '2026',
+    problem: 'Penilaian kesegaran buah masih dilakukan secara manual dan bersifat subjektif, Belum ada sistem otomatis yang dapat menilai kesegaran buah secara cepat dan konsisten.',
+    objective: 'Membangun sistem deteksi kesegaran buah otomatis berbasis computer vision.',
     features: [
-      'Scan Struk Otomatis dengan OCR',
-      'Pengingat Pembayaran Tagihan Rutin',
-      'Ekspor Laporan Keuangan CSV/Excel',
-      'Offline-First Local Database Sync'
+      'Scan buah melalui aplikasi',
+      'Menunjukkan kesegaran buah dengan confidencenya',
     ],
   
   }
@@ -94,29 +91,26 @@ const INITIAL_PROJECTS: Project[] = [
 const INITIAL_CERTIFICATES: Certificate[] = [
   {
     id: 'cert-1',
-    title: 'AWS Certified Solutions Architect – Associate',
-    issuer: 'Amazon Web Services',
-    issueDate: '2025-01-15',
-    credentialId: 'AWS-ASA-8923019',
-    fileUrl: 'https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&w=1000&q=80',
+    title: 'RevoU intro to Software Engineering',
+    issuer: 'Revolusi Citra Edukasi',
+    issueDate: '2026-08-07',
+    fileUrl: 'dist/images/revou.png',
     fileType: 'image'
   },
   {
     id: 'cert-2',
-    title: 'Drought Prediciton',
-    issuer: 'Google Cloud & DeepLearning.AI',
-    issueDate: '2024-11-20',
-    credentialId: 'TF-DEV-902182',
-    fileUrl: 'https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&w=1000&q=80',
+    title: 'ICIMTech 2026',
+    issuer: 'ICIMTech',
+    issueDate: '2026-8-20',
+    fileUrl: 'dist/images/rmpaper.png',
     fileType: 'image'
   },
   {
     id: 'cert-3',
-    title: 'Meta Front-End Developer Professional Certificate',
-    issuer: 'Coursera & Meta',
-    issueDate: '2024-06-10',
-    credentialId: 'META-FE-772910',
-    fileUrl: 'https://images.unsplash.com/photo-1523289333742-be1143f6b766?auto=format&fit=crop&w=1000&q=80',
+    title: 'Garuda Hacks 7.0',
+    issuer: 'Garuda Hacks',
+    issueDate: '2026-07-23',
+    fileUrl: 'dist/images/garudahacks.png',
     fileType: 'image'
   }
 ];
