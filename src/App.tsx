@@ -265,10 +265,10 @@ export default function App() {
                   </div>
 
                   <div className="flex items-center gap-4 pt-4 text-slate-400">
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg border border-slate-800 hover:border-slate-600 hover:text-white transition-colors">
+                    <a href="https://github.com/owen625" target="_blank" rel="noreferrer" className="p-2 rounded-lg border border-slate-800 hover:border-slate-600 hover:text-white transition-colors">
                       <Github className="w-5 h-5" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg border border-slate-800 hover:border-slate-600 hover:text-white transition-colors">
+                    <a href="https://www.linkedin.com/in/fransiscus-owen-410772326?" target="_blank" rel="noreferrer" className="p-2 rounded-lg border border-slate-800 hover:border-slate-600 hover:text-white transition-colors">
                       <ExternalLink className="w-5 h-5" />
                     </a>
                   </div>
