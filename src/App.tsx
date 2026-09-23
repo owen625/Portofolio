@@ -74,7 +74,7 @@ const INITIAL_PROJECTS: Project[] = [
     description: 'Aplikasi untuk mendeteksi kesegaran buah.',
     category: 'Mobile',
     technologies: ['Python', 'OpenCV', 'Scikit-Learn'],
-    imageUrl: 'dist/images/projectcompvis.png',
+    imageUrl: '/images/projectcompvis.png',
     githubUrl: 'https://github.com/MichLoverz/group4-final_project-computer_vision-fresh_fruitness_detection',
     demoUrl: 'https://www.kaggle.com/code/michloverz/fruit-freshness-demo-comvis-group-4',
     projectDate: '2026',
@@ -94,7 +94,7 @@ const INITIAL_CERTIFICATES: Certificate[] = [
     title: 'RevoU intro to Software Engineering',
     issuer: 'Revolusi Citra Edukasi',
     issueDate: '2026-08-07',
-    fileUrl: 'dist/images/revou.png',
+    fileUrl: '/images/revou.png',
     fileType: 'image'
   },
   {
@@ -102,7 +102,7 @@ const INITIAL_CERTIFICATES: Certificate[] = [
     title: 'ICIMTech 2026',
     issuer: 'ICIMTech',
     issueDate: '2026-8-20',
-    fileUrl: 'dist/images/rmpaper.png',
+    fileUrl: '/images/rmpaper.png',
     fileType: 'image'
   },
   {
@@ -110,7 +110,7 @@ const INITIAL_CERTIFICATES: Certificate[] = [
     title: 'Garuda Hacks 7.0',
     issuer: 'Garuda Hacks',
     issueDate: '2026-07-23',
-    fileUrl: 'dist/images/garudahacks.png',
+    fileUrl: '/images/garudahacks.png',
     fileType: 'image'
   }
 ];
