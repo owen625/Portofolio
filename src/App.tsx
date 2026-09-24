@@ -33,8 +33,8 @@ const INITIAL_PROJECTS: Project[] = [
   {
     id: 'proj-1',
     title: 'Review Authenticity Analyzer',
-    description: 'Review Authenticity Analyzer adalah projek pemrosesan bahasa alami (NLP) yang bertujuan untuk mendeteksi dan menganalisis keaslian sebuah ulasan (review) teks, yaitu membedakan mana ulasan yang asli (authentic) dan mana ulasan buatan/palsu (fake/computer-generated/spam).',
-    category: 'Web Dev',
+    description: 'Review Authenticity Analyzer adalah projek pemrosesan bahasa alami (NLP) yang bertujuan untuk mendeteksi dan menganalisis keaslian sebuah ulasan (review) teks, yaitu membedakan mana ulasan yang asli (authentic) dan mana ulasan buatan/palsu (fake/computer-generated/spam), role saya dalam project ini adalah membantu dalam pembuatan fe dan planning',
+    category: 'NLP',
     technologies: ['Python', 'NLTK', 'Scikit-Learn', 'Gradio', 'Hugging Face Spaces'],
     imageUrl: '/images/projectnlp.png',
     githubUrl: 'https://github.com/Christian2802/NLP-Review-Authenticity-Analyzer',
