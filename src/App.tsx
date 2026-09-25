@@ -52,16 +52,16 @@ const INITIAL_PROJECTS: Project[] = [
   },
   {
     id: 'proj-2',
-    title: 'Drought Prediction',
-    description: 'Drought Prediction adalah proyek pemodelan Machine Learning yang bertujuan untuk memprediksi tingkat kekeringan suatu wilayah berdasarkan data meteorologi, tanah, dan iklim untuk membantu mitigasi bencana alam.',
+    title: 'Portfoliox',
+    description: 'Portfoliox adalah sebuah platform manajemen dan optimasi portofolio investasi cerdas yang dilengkapi dengan sistem analisis risiko otomatis, perbandingan performa aset, dan integrasi data pasar keuangan secara real-time.',
     category: 'AI/ML',
-    technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn', 'Matplotlib'],
-    imageUrl: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com/Christian2802/Drought_Prediction',
-    demoUrl: 'https://example.com',
+    technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Python', 'FastAPI', 'Supabase'],
+    imageUrl: './images/portfoliox.png',
+    githubUrl: 'https://github.com/orgs/Software-Engineering-LD01/repositories',
+    demoUrl: 'https://portfoliox-se.vercel.app/',
     projectDate: '2026',
-    problem: 'Sulitnya memprediksi potensi dan tingkat keparahan kekeringan secara akurat dan lebih awal, yang berisiko menyebabkan gagal panen, krisis air bersih, dan kerugian ekonomi sektor pertanian.',
-    objective: 'Deteksi kekeringan dini untuk mengantisipasi terjadinya kekeringan sebelum dampak memburuk',
+    problem: 'Kurangnya alat bantu analitik yang mudah diakses bagi investor ritel untuk menghitung risiko portofolio secara otomatis dan mengambil keputusan alokasi aset berbasis data pasar real-time.',
+    objective: 'Membangun platform web terintegrasi menggunakan data historis pasar secara otomatis, memvisualisasikan performa aset, dan menerapkan algoritma pemodelan untuk memberikan wawasan optimasi risiko investasi.',
     features: [
       'Pengolahan Data Iklim: Pembersihan dan analisis data meteorologi (seperti suhu, curah hujan, kelembapan, dan kondisi tanah).',
       'Prediksi Tingkat Kekeringan: Klasifikasi atau regresi tingkat keparahan kekeringan (drought severity level).',
@@ -81,8 +81,11 @@ const INITIAL_PROJECTS: Project[] = [
     problem: 'Penilaian kesegaran buah masih dilakukan secara manual dan bersifat subjektif, Belum ada sistem otomatis yang dapat menilai kesegaran buah secara cepat dan konsisten.',
     objective: 'Membangun sistem deteksi kesegaran buah otomatis berbasis computer vision.',
     features: [
-      'Scan buah melalui aplikasi',
-      'Menunjukkan kesegaran buah dengan confidencenya',
+      'Market Overview',
+      'Asset Allocation Overview',
+      'Asset Return',
+      'Assets Performance Comparison',
+      'Risk Analysis'
     ],
   
   }
